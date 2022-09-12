@@ -57,7 +57,7 @@ Observe que cada arquivo tem várias regrinhas numeradas entre colchetes. Cada u
 
 Isso totaliza 95 regrinhas perfazendo uma nota de 9,5.
 
-Arquivos CSS que estejam em branco, que sejam idênticos aos dados no enunciado, que não sejam legíveis ou que não produzam nenhum dos efeitos desejados serão considerados com nota zero para todas as regras dele esperadas.
+Arquivos CSS que estejam em branco, que sejam em essência idênticos aos fornecidos pelo professor aqui no GitHub, que não sejam legíveis ou que não produzam nenhum dos efeitos desejados serão considerados com nota zero para o exercício correspondente.
 
 Os outros 0,5 pontos (podendo então totalizar 10) serão dados para quem conseguir cumprir TODOS essas requisitos corretamente:
 
@@ -74,6 +74,6 @@ Os outros 0,5 pontos (podendo então totalizar 10) serão dados para quem conseg
 - Cuidado com regras CSS definidas por padrão pelo navegador. Por vezes será necessário sobrescrevê-las.
 - Teste no Chrome e no Firefox para evitar possíveis diferenças entre navegadores.
 - Não altere os arquivos HTML. Qualquer alteração nos arquivos HTML será totalmente desconsiderada na entrega. A correção será feita com os arquivos HTML originais.
-- Em geral, com pouquíssimas exceções, existe uma relação de um-para-um entre as regras numeradas no enunciado e as regras CSS que vocês vão definir.
+- Em geral, com pouquíssimas exceções, existe uma relação de um-para-um entre as regras numeradas enre colchetes nos enunciados e as regras CSS que vocês vão definir.
 - Sempre tenha em mente que devido a pequenas diferenças entre navegadores, é possível que mesmo que o que você fez esteja correto, pode ainda haver alguma pequena divergência entre o que o navegador te mostra e o PNG com o resultado esperado. No entanto, só considere essa hipótese depois que eliminar outras hipóteses de que talvez você tenha cometido algum equívoco no seu CSS ou de que tenha esquecido ou confundido algum detalhe do enunciado.
 - Mesmo que a página que o navegador tenha te mostrado esteja perfeitamente idêntica aos PNGs de referência, ainda assim é possível ter erros no CSS e o professor vai procurar por isso. Logo, não é só porque o resultado ficou igual ao PNG que isso significa que você tirou 10. Exemplos de casos assim são ter regras CSS inúteis ou que não se apliquem a nada, ter elementos invisíveis a mais ou ultrapassar o número máximo de seletores especificado no enunciado em alguns dos exercícios.
