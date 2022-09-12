@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+EXERCÍCIO 1.
+
+Altere este arquivo até que a página css-exe1.html se assemelhe ao arquivo css-exe1.png que acompanha este exercício.
+
+As regras específicas são:
+-- Tipo de fonte: Verdana. [1]
+-- Tamanho da fonte: 16 pixels. [2]
+-- Largura do painel: 400 pixels. [3]
+-- Alinhamento: centralizado horizontalmente (texto). [4]
+-- Espaçamento entre linhas: duplo. [5]
+-- Cor do texto: Vermelho (red). [6]
+-- Borda sólida [7] com espessura 2px [8] cor preta (black) [9].
+-- Textos normais [10], exceto os textos pretos (black) [11] que estão em negrito [12].
+-- Não acrescente regras CSS que não tenham efeito ou que produzam efeitos além do desejado [13].
+-- Use no máximo 3 seletores (agregação conta como um) [14].
+*/
+
+seletor1 {
+  /* ... */
+}
+
+seletor2 {
+  /* ... */
+}
+
+seletor3 {
+  /* ... */
+}

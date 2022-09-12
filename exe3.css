@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*
+EXERCÍCIO 3.
+
+Altere este arquivo até que a página css-exe3.html se assemelhe ao arquivo css-exe3.png que acompanha este exercício.
+
+As regras específicas são:
+-- A tabela deve ter largura de 580 pixels [1], com fonte Arial [2] a cada célula deve ter borda preta [3], sólida [4] e de largura 1px [5].
+-- Não deixe espaço entre as bordas de diferentes células (dica: procure por border-collapse). [6]
+-- Todas as células contendo nomes de alunos devem estar alinhadas à esquerda [7], com as notas alinhadas à direita [8] e todas as demais devem estar centralizadas [9].
+-- A primeira letra de cada palavra maiúscula deve ser convertida para maiúscula (via CSS mesmo). [10]
+-- As duas primeiras linhas devem ter seus textos em negrito [11] e cor de fundo cinza claro (#ddd) [12].
+-- As linhas ímpares contendo nomes de alunos em sua primeira célula devem possuir fundo ciano claro (#80ffff) [13] e as pares amarelo claro (#ffff80) [14].
+-- Todas as notas devem estar em itálico [15] e negrito [16].
+-- As notas maiores ou igual a 7 devem estar em verde (#00B050) [17] e as menores devem estar em vermelho (red) [18].
+-- Use classes apenas para implementar as regras 17 e 18 acima. Para as demais regras aqui listadas, use tags e pseudoclasses. [19]
+-- Não acrescente regras CSS que não tenham efeito ou que produzam efeitos além do desejado. [20]
+*/

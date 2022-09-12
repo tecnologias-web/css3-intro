@@ -3,27 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Exercício 3 - CSS3</title>
-    <!--
-        EXERCÍCIO 3.
-
-        Altere o CSS até que a página se assemelhe ao arquivo css-exe3.png que acompanha este exercício.
-
-        Use apenas TAGS e PSEUDO-CLASSES nesse exercício.
-
-        As regras específicas são:
-         -- A tabela deve ter tamanho 100%, com a borda de largura 1px e preta (sem espaço entre as bordas!!!).
-         -- Todas as células devem estar centralizadas e com a primeira letra maiúscula, mesmo que o conteúdo da célula esteja em minúsculo.
-         -- As duas primeiras linhas devem ter seus textos em negrito.
-         -- As linhas ímpares (1 e 3) devem possuir fundo cinza (grey).
-         -- Todas as notas devem estar em itálico.
-         -- As notas maiores ou igual a 7 devem estar em verde (green).
-         -- As notas menores que 7 devem estar em vermelho (red).
-    -->
-    <style>
-      /* Faça o seu CSS aqui. */
-    </style>
+    <!-- Abra o arquivo CSS abaixo para ver o enunciado do exercício e resolvê-lo. -->
+    <link rel="stylesheet" type="text/css" href="exe3.css">
+    <script type="text/javascript">
+      function colorir() {
+        tds = document.getElementsByTagName("td");
+        for (idx in tds) {
+          td = tds[idx];
+          nota = parseFloat(td.innerHTML.replace(",", "."));
+          if (isNaN(nota)) continue;
+          td.classList.add(nota < 7 ? "fail" : "pass");
+        }
+      };
+    </script>
   </head>
-  <body>
+  <body onload="javascript:colorir()">
     <table class="tabela">
       <tr>
         <th rowspan="2">alunos</th>
@@ -34,24 +28,79 @@
         <th>trabalho</th>
       </tr>
       <tr>
-        <td>andré</td>
-        <td>10</td>
-        <td>8</td>
+        <td>alessandra da silva</td>
+        <td>4,5</td>
+        <td>9,0</td>
       </tr>
       <tr>
-        <td>joana</td>
-        <td>7</td>
-        <td>5</td>
+        <td>ana paula maranhão</td>
+        <td>9,5</td>
+        <td>9,9</td>
       </tr>
       <tr>
-        <td>bruno</td>
-        <td>2</td>
-        <td>2</td>
+        <td>andré carlos de freitas</td>
+        <td>10,0</td>
+        <td>8,1</td>
       </tr>
       <tr>
-        <td>maria</td>
+        <td>bruno marcondes dos santos</td>
+        <td>2,4</td>
+        <td>2,1</td>
+      </tr>
+      <tr>
+        <td>daniela fernanda ayres da silva</td>
+        <td>10,0</td>
+        <td>10,0</td>
+      </tr>
+      <tr>
+        <td>joana cristina de freitas</td>
+        <td>7,0</td>
+        <td>5,3</td>
+      </tr>
+      <tr>
+        <td>joaquim manuel de portugal</td>
+        <td>9,5</td>
+        <td>8,0</td>
+      </tr>
+      <tr>
+        <td>kátia aparecida de almeida</td>
+        <td>2,0</td>
+        <td>2,8</td>
+      </tr>
+      <tr>
+        <td>luiz fernando alves augusto</td>
+        <td>8,9</td>
+        <td>9,6</td>
+      </tr>
+      <tr>
+        <td>maria moura de oliveira</td>
         <td>5,5</td>
-        <td>10</td>
+        <td>10,0</td>
+      </tr>
+      <tr>
+        <td>osias pinheiro da luz</td>
+        <td>8,6</td>
+        <td>7,5</td>
+      </tr>
+      <tr>
+        <td>paula oliveira sacho</td>
+        <td>8,2</td>
+        <td>9,1</td>
+      </tr>
+      <tr>
+        <td>rafael tarki wass gomes</td>
+        <td>7,5</td>
+        <td>6,4</td>
+      </tr>
+      <tr>
+        <td>tatiane roque marques</td>
+        <td>4,4</td>
+        <td>9,3</td>
+      </tr>
+      <tr>
+        <td>tiago cruz da cunha leite</td>
+        <td>0,0</td>
+        <td>0,0</td>
       </tr>
     </table>
   </body>

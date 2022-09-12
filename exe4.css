@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+EXERCÍCIO 4.
+
+Altere este arquivo até que a página css-exe4.html se assemelhe ao arquivo css-exe4.png que acompanha este exercício.
+
+As regras específicas são:
+-- A página deve ter cor de fundo azul ciana (cyan). [1]
+-- O texto dos parágrafos (exceto a arte que representa os personagens) deve estar na fonte Arial [2] tamanho 30px [3], justificado [4], na cor azul [5] e com 1em de espaçamento entre linhas [6].
+-- O texto do título deve ter o tamanho de 50px [7] e estar centralizado [8] com a fonte "Simpsonfont" que acompanha este exercício [9]. Não esqueça de importar essa fonte [10].
+-- Cada arte representando um Simpson e o seu respectivo nome deve estar em um cartão [11] de cor amarela [12].
+-- O texto representando a arte de cada personagem deve ter a cor preta [13], mas o nome correspondente deve estar em cor vermelha [14].
+-- Cada um desses cartões deve ter a borda preta [15], sólida [16] e com 1 pixel de espessura [17] e cantos arredondados em 15 pixels [18].
+-- Dentro de cada cartão, devem estar horizontalmente centralizados tanto o nome do personagem [19] como a arte [20].
+-- Dentro de cada cartão, o nome do personagem deve estar abaixo da arte representando-o [21].
+-- Esses cartões também não devem interromper ou quebrar o texto que os circunda, embora possam fazer com que diferentes linhas de texto acabem tendo alturas diferentes. [22]
+-- Os cartões e o texto circundante devem aparecer verticalmente alinhados um em relação ao outro. [23]
+-- Coloque 1 pixel de margem acima [24] e abaixo [25] de cada cartão. Assim, eles não irão eventualmente aparecer "grudados" nos elementos da linha acima ou abaixo.
+-- Certifique-se de que a margem a esquerda [26] e a direita [27] de cada cartão é zero. Assim, eles não irão aparecer separados do texto antes ou depois.
+-- Coloque um enchimento entre a borda e o conteúdo de 5 pixels em cada lateral do cartão. [28]
+-- Use a fonte Courier New [29] negrito [30] tamanho 8px [31] para representar a arte de cada Simpson e esse mesmo tamanho para a altura de cada linha dentro dessa arte [32].
+-- Não coloque nenhuma outra margem interna no cartão além das definidas pelas outras regras, tanto na moldura, quanto na arte que representa os personagens, quanto no nome do personagem. [33]
+-- Ao passar o mouse por cima de um cartão, o fundo deve mudar para a cor azul [34], a arte para a cor branca [35] e o nome para a cor "lime" [36].
+-- Use no máximo 9 seletores, incluindo o importador da fonte Simpsonfont.otf. [37]
+-- Não acrescente regras CSS que não tenham efeito ou que produzam efeitos além do desejado. [38]
+
+Dicas:
+-- Lempre-se do inline-block.
+-- Lembre-se da pseudoclasse :hover.
+-- Não instale a fonte "Simpsonfont.otf" no seu computador, e sim importe-a corretamente na sua página sem que ela precise estar instalada.
+*/

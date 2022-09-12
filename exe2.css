@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*
+EXERCÍCIO 2.
+
+Altere este arquivo até que a página css-exe2.html se assemelhe ao arquivo css-exe2.png que acompanha este exercício.
+
+As regras específicas são:
+-- Use a fonte Arial para todos os textos [1].
+-- A borda da caixa deve ter grossura de 1px [2], cor negra [3] e estilo sólido [4].
+-- O primeiro parágrafo deve ter fonte de tamanho 28px [5], negrito [6], cor preta [7] e texto centralizado [8].
+-- O segundo parágrafo deve ter fonte de tamanho 16px [9] e cor azul na tonalidade #4F81CD [10].
+-- O terceiro parágrafo deve ter fonte de tamanho 16px [11], negrito [12] e cor verde na tonalidade #00B050 [13].
+-- O quarto parágrafo deve ter cor amarela na tonalidade #FFC000 [14], itálico [15] e fonte de tamanho 16px [16].
+-- O quinto parágrafo deve se sublinhado [17], ter cor vermelha [18] e fonte de tamanho 18px [19].
+-- Defina uma margem de 10px em todos os lados para todos os parágrafos. [20]
+-- Para cada id existente no documento, defina um e exatamente um único seletor [21].
+-- Para cada classe existente no documento, defina um e exatamente um único seletor [22].
+-- Não acrescente regras CSS que não tenham efeito ou que produzam efeitos além do desejado [23].
+*/
