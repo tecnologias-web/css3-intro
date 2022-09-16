@@ -62,8 +62,9 @@ Arquivos CSS que estejam em branco, que sejam em essência idênticos aos fornec
 Os outros 0,5 pontos (podendo então totalizar 10) serão dados para quem conseguir cumprir TODOS essas requisitos corretamente:
 
 - Preencher o JSON corretamente.
-- Ter todos os CSSs bem formados e o JSON bem formado.
+- Ter todos os [CSSs bem formados](http://csslint.net/) e o [JSON bem formado](https://jsonlint.com/).
 - Ter os arquivos corretos dentro do ZIP, com os nomes corretos e nada mais além do que esses arquivos.
+  - Observação: RAR não é ZIP.
 - Fizer a entrega corretamente pelo formulário.
 - Não trocar, confundir ou misturar os diferentes arquivos CSS.
 
