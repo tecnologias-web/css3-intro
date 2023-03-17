@@ -41,7 +41,7 @@ Obviamente, os HTMLs dados aqui se apresentarão bem diferentes do que o desejad
 
 3. Entregue o arquivo ZIP pelo formulário na AC 2 do classroom.
 
-Observe que voê não deve entregar os HTMLs e nem os PNGs dentro do seu ZIP.
+Observe que você não deve entregar os HTMLs e nem os PNGs dentro do seu ZIP.
 
 ## Como fica a nota
 
