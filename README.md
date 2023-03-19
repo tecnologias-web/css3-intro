@@ -73,7 +73,7 @@ Os outros 0,5 pontos (podendo então totalizar 10) serão dados para quem conseg
 - Em linhas gerais, se duas regras estiverem aparentemente em conflito, vale a que é aplicada ao seletor mais específico e se isso ainda não resolver, vale a última definida. No entanto, há vários casos especiais.
 - Apesar da dica acima, evite ter que confiar em solução de possíveis conflitos de regras exceto se absolutamente necessário. Aliás, evite criar regras que precisem ser sobrescritas ou redefinidas.
 - Cuidado com regras CSS definidas por padrão pelo navegador. Por vezes será necessário sobrescrevê-las.
-- Teste no Chrome e no Firefox para evitar possíveis diferenças entre navegadores.
+- Teste no Chrome e no Firefox para evitar possíveis diferenças entre navegadores. Se quiser ir além, teste também no Edge, no Opera, no Safari e/ou no Samsung Internet também.
 - Não altere os arquivos HTML. Qualquer alteração nos arquivos HTML será totalmente desconsiderada na entrega. A correção será feita com os arquivos HTML originais.
 - Em geral, com pouquíssimas exceções, existe uma relação de um-para-um entre as regras numeradas entre colchetes nos enunciados e as regras CSS que vocês vão definir.
 - Sempre tenha em mente que devido a pequenas diferenças entre navegadores, é possível que mesmo que o que você fez esteja correto, pode ainda haver alguma pequena divergência entre o que o navegador te mostra e o PNG com o resultado esperado. No entanto, só considere essa hipótese depois que eliminar outras hipóteses de que talvez você tenha cometido algum equívoco no seu CSS ou de que tenha esquecido ou confundido algum detalhe do enunciado.
